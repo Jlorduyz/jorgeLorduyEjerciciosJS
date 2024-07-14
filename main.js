@@ -142,7 +142,7 @@ if (nombre == sameName) {
   console.log("Buenas " + nombre + " sea Bienvenido");
 } else if (entrada == "si") {
   let uso = prompt("Desea usar su entrada? si o no ?");
-  if (uso == si) {
+  if (uso == "si") {
     console.log("Buenas " + sameName + " sea Bienvenido");
   } else {
     console.log("Ok " + nombre + " se puede retirar");
